@@ -1,0 +1,190 @@
+﻿
+/*====================================
+ Free To Use For Personal And Commercial Usage
+Author: http://binarytheme.com
+ License: Open source - MIT
+ Please visit http://opensource.org/licenses/MIT for more Full Deatils of license.
+ Share Us if You Like our work 
+ Enjoy Our Codes For Free always.
+======================================*/
+
+
+/*=======================================
+    GENERAL STYLES
+==================================================*/
+
+body {
+          font-family:'Open Sans', sans-serif;
+    font-size:14px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family:'Open Sans', sans-serif;
+}
+
+h1 {
+    line-height:50px;
+    font-weight:900;
+    font-size:40px;
+    padding:10px 20px 5px 20px;
+    text-transform:uppercase;
+}
+
+
+.pad-adjust {
+    padding-top: 5px; 
+    padding-bottom: 5px;
+}
+
+.text-center {
+    text-align:center;
+}
+
+h2 {
+    line-height:50px;
+}
+h3 {
+    line-height:30px;
+    padding-bottom:20px;
+}
+.color-bg-one {
+    background-color:brown!important;
+    color:#fff;
+}
+
+ /*=======================================
+    SIDE MENUS STYLES
+==================================================*/
+
+#cbp-spmenu-s1 {
+    overflow:auto;
+}
+
+#cbp-spmenu-s1>h3 {
+    text-align:right;
+}
+#icon-left {
+    text-align:right;
+cursor:pointer;
+}
+
+#showLeftPush {
+    position:fixed;
+    z-index:9999;
+    left:5px;
+    top:20px;
+    color: #fff;
+}
+
+/*=======================================
+    COMPONENTS.CSS ADJUSTMENTS STYLES
+==================================================*/
+
+.cbp-spmenu a:focus,.cbp-spmenu a:hover {
+    text-decoration:none;
+}
+
+.cbp-spmenu a>i {
+    margin-right:5px;
+}
+.cbp-spmenu h3 {
+font-size: 0.9em;
+font-weight: 900;
+color:#fff;
+padding:30px;
+background: brown;
+
+}
+
+.cbp-spmenu a {
+display: block;
+color: #fff;
+font-size: 0.9em;
+font-weight: 900;
+}
+.cbp-spmenu {
+    background-color:brown!important;
+}
+.cbp-spmenu-vertical a {
+    border-bottom: 1px solid #036934;
+}
+.cbp-spmenu a:hover {
+background: lightyellow;
+}
+
+/*=======================================
+    HOME SECTION STYLES
+==================================================*/
+
+
+.head-btn-one {
+    background-color: brown!important;
+     border: 0px solid #fff;
+
+}
+
+#home {
+    padding-top:130px;
+    padding-bottom:200px;
+    color:#000;
+}
+.head-main {
+    font-size:80px ;
+    font-weight:900;
+    
+}
+.head-sub-main {
+    font-size:40px ;
+    font-weight:600;
+    padding:5px 20px 10px 20px;
+}
+.head-last {
+    font-size:20px ;
+    font-weight:300;
+    padding:5px 20px 20px 20px;
+}
+
+.btn-lg, .btn-group-lg > .btn {
+border-radius: 0px; 
+
+}
+
+
+/*=======================================
+    FOOTER STYLES
+==================================================*/
+
+
+#footer {
+    color:#fff;
+    background-color:brown!important;
+    padding:20px 50px 20px 50px;
+    text-align:right;
+}
+
+
+.form_input1{width:150px;height:34px;float:left;padding:0px 0px 0 4px; background-color:#F4F6F7; border:1px #90A9B7 solid; color:#000;-moz-border-radius:4px;-webkit-border-radius:4px;border-radius:4px;font-family:calibri;}
+
+.form_input2{float:left;padding:0px 0px 0 4px; background-color:#F4F6F7; border:1px #90A9B7 solid; color:#000;-moz-border-radius:4px;-webkit-border-radius:4px;border-radius:4px;font-family:calibri;}
+
+input.form_submit{float:center; clear:both; margin:0px 5px 0 0px;color:#fff;background: #7dc44e;-moz-border-radius:4px;-webkit-border-radius:4px;border-radius:4px;font-family:arial;font-size:12px;font-weight: bold;padding:8px 15px;text-align: center;cursor:pointer; border:none;text-shadow:1px 1px #4c9021;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
