@@ -22,7 +22,7 @@
 
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
-  <title>Cognizant To Do List</title>
+  <title>Virtusa To Do List</title>
 </head>
 <body>
   <br><br>
@@ -31,7 +31,7 @@
     <div class="row">
       <div class="col-md-8 col-md-offset-2">
         <div class="alert alert-success" role="alert">
-           <h4>Cognizant To Do List</h4>
+           <h4>Virtusa To Do List</h4>
         </div>
       </div>
     </div>

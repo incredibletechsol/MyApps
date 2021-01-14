@@ -78,7 +78,7 @@
 <center><h3><a href="otherapps/mycareer/index.php">IT Companies in Pune</a></h3></center>
 <center><h3><a href="otherapps/careertodolist/index.php">My Career To Do List</a></h3></center>
 <center><h3><a href="otherapps/personaltodolist/index.php">My Personal To Do List</a></h3></center>
-<center><h3><a href="otherapps/Cognizant/index.php">Cognizant To Do List</a></h3></center>
+<center><h3><a href="otherapps/Virtusa/index.php">Virtusa To Do List</a></h3></center>
 </div>
 </div>
 </div>
