@@ -58,8 +58,8 @@ if($param  == "deleteletter")
 	
 	if($param == "sendzip")
 	{
-	 create_zip('/home2/dkkkpmba/public_html/MyApps/mydocs/myletters','myletters.zip');
-     sendZipMail('My Letters','My Letters','/home2/dkkkpmba/public_html/MyApps/mydocs/myletters.zip','myletters.zip');
+	 create_zip('/home/siddhesh/public_html/MyApps/mydocs/myletters','myletters.zip');
+     sendZipMail('My Letters','My Letters','/home/siddhesh/public_html/MyApps/mydocs/myletters.zip','myletters.zip');
 	}
 }
 
@@ -67,7 +67,7 @@ if($param  == "deleteletter")
 function sendMail($file,$attachmentName)
        {
         $email = new PHPMailer();
-        $email->From      = 'amitbaramatimca@gmail.com';
+        $email->From      = 'siddhesh@siddheshwargroup.co.in';
         $email->FromName  = 'Amit Bhalerao';
         $email->Subject   = "Your Document ".$attachmentName;
         $email->Body      = "Your Document ".$attachmentName;
@@ -87,7 +87,7 @@ function sendMail($file,$attachmentName)
 function sendZipMail($content,$subject,$file,$attachmentName)
        {
         $email = new PHPMailer();
-        $email->From      = 'amitbaramatimca@gmail.com';
+        $email->From      = 'siddhesh@siddheshwargroup.co.in';
         $email->FromName  = 'Amit Bhalerao';
         $email->Subject   = $subject;
         $email->Body      = $content;

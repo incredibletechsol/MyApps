@@ -61,8 +61,8 @@ if($param  == "deletepdfdoc")
 	
 	if($param == "sendzip")
 	{
-	 create_zip('/home2/dkkkpmba/public_html/MyApps/mydocs/mypdfdocs','mypdfdocs.zip');
-     sendZipMail('My PDF Documents','My PDF Documents','/home2/dkkkpmba/public_html/MyApps/mydocs/mypdfdocs.zip','mypdfdocs.zip');
+	 create_zip('/home/siddhesh/public_html/MyApps/mydocs/mypdfdocs','mypdfdocs.zip');
+         sendZipMail('My PDF Documents','My PDF Documents','/home/siddhesh/public_html/MyApps/mydocs/mypdfdocs.zip','mypdfdocs.zip');
 	}
 }
 
@@ -70,7 +70,7 @@ if($param  == "deletepdfdoc")
 function sendMail($file,$attachmentName)
        {
         $email = new PHPMailer();
-        $email->From      = 'amitbaramatimca@gmail.com';
+        $email->From      = 'siddhesh@siddheshwargroup.co.in';
         $email->FromName  = 'Amit Bhalerao';
         $email->Subject   = "Your Document ".$attachmentName;
         $email->Body      = "Your Document ".$attachmentName;
@@ -91,7 +91,7 @@ function sendMail($file,$attachmentName)
 	function sendZipMail($content,$subject,$file,$attachmentName)
        {
         $email = new PHPMailer();
-        $email->From      = 'amitbaramatimca@gmail.com';
+        $email->From      = 'siddhesh@siddheshwargroup.co.in';
         $email->FromName  = 'Amit Bhalerao';
         $email->Subject   = $subject;
         $email->Body      = $content;

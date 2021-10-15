@@ -61,17 +61,17 @@ if($param  == "deletepayslip")
 	
 	if($param == "sendzip")
 	{
-	 create_zip('/home/dkkkpmba/public_html/MyApps/mydocs/payslips','payslips.zip');
-     sendZipMail('My Payslips','My Payslips','/home/dkkkpmba/public_html/MyApps/mydocs/payslips.zip','payslips.zip');
+	 create_zip('/home/siddhesh/public_html/MyApps/mydocs/payslips','payslips.zip');
+     sendZipMail('My Payslips','My Payslips','/home/siddhesh/public_html/MyApps/mydocs/payslips.zip','payslips.zip');
 	}
 }
 
 
 function sendMail($file,$attachmentName)
        {
-        include('/home/dkkkpmba/public_html/backup/projectbackup/phpmailer/class.phpmailer.php');
+        include('/home/siddhesh/public_html/MyApps/mydocs/phpmailer/class.phpmailer.php');
         $email = new PHPMailer();
-        $email->From      = 'amitbaramatimca@gmail.com';
+        $email->From      = 'siddhesh@siddheshwargroup.co.in';
         $email->FromName  = 'Amit Bhalerao';
         $email->Subject   = "Your Payslip ".$attachmentName;
         $email->Body      = "Your Payslip ".$attachmentName;
@@ -91,9 +91,9 @@ function sendMail($file,$attachmentName)
 	
 function sendZipMail($content,$subject,$file,$attachmentName)
        {
-        include('/home/dkkkpmba/public_html/backup/projectbackup/phpmailer/class.phpmailer.php');
+        include('/home/siddhesh/public_html/MyApps/mydocs/phpmailer/class.phpmailer.php');
         $email = new PHPMailer();
-        $email->From      = 'amitbaramatimca@gmail.com';
+        $email->From      = 'siddhesh@siddheshwargroup.co.in';
         $email->FromName  = 'Amit Bhalerao';
         $email->Subject   = $subject;
         $email->Body      = $content;
