@@ -12,9 +12,9 @@ class Database{
 	 * Database class
 	 */
     private $db_host = "localhost";  // Change as required
-	private $db_user = "dkkkpmba_website_clients_user";  // Change as required
+	private $db_user = "siddhesh_siddhesh";  // Change as required
 	private $db_pass = "Kasturi254@#$";  // Change as required
-	private $db_name = "dkkkpmba_myapps";	// Change as required
+	private $db_name = "siddhesh_mydocs";	// Change as required
 
 	
 	/*
