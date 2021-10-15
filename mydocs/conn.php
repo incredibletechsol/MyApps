@@ -4,9 +4,9 @@
 
 
 $servername = "localhost";
-$username = "kasturic_kasturi";
+$username = "siddhesh_siddhesh";
 $password = "Kasturi254@#$";
-$dbName = "kasturic_mydocs";
+$dbName = "siddhesh_mydocs";
 
 
 // Create connection
